@@ -159,7 +159,7 @@ class _HomeScreenState extends State<HomeScreen> with TickerProviderStateMixin {
 
   Widget _buildCard(String title, String description, String imagePath) {
     return SingleChildScrollView(
-      key: ValueKey(title), // importante para o PageTransitionSwitcher
+      key: ValueKey(title), 
       child: Padding(
         padding: const EdgeInsets.all(16),
         child: Column(
